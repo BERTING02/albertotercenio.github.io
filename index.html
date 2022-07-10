@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="theme-color" content="#009578">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PWA</title>
+        <link rel="stylesheet" href="src/master.css">
+        <link rel="manifest" href="manifest.json">
+        <link rel="apple-touch-icon "href="images/logo192.png">
+        <link rel = "stylesheet" type = "text/css" href = "css/bootstrap.css" />
+		<link rel = "stylesheet" type = "text/css" href = "css/customize.css" />
+    </head>
+    <div class = "navbar navbar-default navtop">
+		<img src = "images/logodaw.jpg" style = "float:left;" height = "55px" /><label class = "navbar-brand">Skin Clinic Appointment</label>
+
+		<button class  = "btn btn-dark form-control" ><span class = "glyphicon glyphicon-log-in"></span> <a href="admin/index.php">Click here for Admin Side</a></button>	
+	</div>
+		<div id = "sidelogin">
+			<form action = "login.php" enctype = "multipart/form-data" method = "POST" >
+				<label class = "lbllogin">USER LOGIN.</label>
+				<br />
+				
+				<br />
+				<div class = "form-group">
+					<label for = "username">Username</label>
+					<input class = "form-control" type = "text" name = "username"  required = />
+				</div>
+				<br />
+				<div class = "form-group">
+					<label for = "password">Password</label>
+					<input class = "form-control" type = "password" name = "password" required =  />
+				</div>
+				<br />
+				<br />
+				<div class = "form-group">
+					<button class  = "btn btn-success form-control" type = "submit" name = "login" ><span class = "glyphicon glyphicon-log-in"></span> Login</button>
+					<br/>
+					<br/>
+					
+					
+					
+				</div>
+				
+			</form>
+		</div>	
+		<img src = "images/logo.png" class = "background">			
+	<div id = "footer">
+		<label class = "footer-title">&copy;  </label>
+	</div>
+    <body>
+        
+  
+        <script src="src/index.js"></script>
+    </body>
+</html>
